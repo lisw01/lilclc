@@ -1,0 +1,754 @@
+/*固定导航*/
+.fixed {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 153, 255, 0.8);
+    position: fixed;
+    z-index: 1000;
+    display: none;
+}
+
+.fixed .icon i {
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.fixed .fixed-serch {
+    width: 648px;
+    height: 20px;
+    padding: 5px;
+
+}
+
+.fixed .inline-black {
+    padding-top: 10px;
+    margin-right: 175px;
+}
+
+.fixed .inline-black .fixed-btn {
+    width: 90px;
+    height: 30px;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    line-height: 30px;
+    font-size: 16px;
+    background-color: #039CDA;
+    color: #fff;
+}
+
+/*头部导航*/
+
+.header {
+    height: 58px;
+    width: 100%;
+    background-color: #039CDA;
+}
+
+.header .nav {
+    line-height: 58px;
+    position: relative;
+
+}
+
+.header-logo-li {
+    float: left;
+    padding: 0 10px;
+}
+
+.header-logo-li a {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    display: block;
+    font-size: 15px;
+    color: #fff;
+}
+
+.header .logo .first {
+    padding-left: 0;
+}
+
+.header .logo a:hover {
+    color: #aaa;
+}
+
+.header .iconfont {
+    font-size: 35px;
+    color: #fff;
+}
+
+.header .search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 14px;
+}
+
+.header-search {
+    height: 28px;
+    width: 260px;
+    background-color: #fff;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.header-but {
+    height: 28px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #a3e030;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 14px;
+    color: #039CDA;
+}
+
+.pic {
+    position: relative;
+    height: 914px;
+
+}
+
+.pic-bg {
+    width: 100%;
+    height: 914px;
+    background: url("../images/ljs.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.pic-bg2 {
+    width: 100%;
+    height: 914px;
+    background: url("../images/ljs_mh.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.pic-bg a {
+    width: 100%;
+    height: 100%;
+}
+
+.pic .ding-wei {
+    float: left;
+}
+
+.pic .pic-tp {
+    display: inline-block;
+    margin-top: -7px;
+
+}
+
+.pic .pic-tp a {
+    display: inline-block;
+
+}
+
+.pic .pic-tp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pic .search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -315px;
+    margin-top: -18px;
+    z-index: 10;
+
+}
+
+.pic .search label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-family: "Microsoft YaHei", "SimSun";
+    font-size: 14px;
+    color: #eee;
+}
+
+.pic .search .inpt {
+    width: 520px;
+    height: 40px;
+    border: 1px solid rgba(0, 153, 204, 0.2);
+    border-radius: 5px 0 0 5px;
+    padding-left: 10px;
+    /*background-color:transparent;*/
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.pic .search .but {
+    width: 100px;
+    height: 41px;
+    border-radius: 0 5px 5px 0;
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    background-color: rgba(0, 153, 204, 0.7);
+}
+
+.pic .search .but span {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #fff;
+}
+
+/*视频*/
+.video {
+    padding-top: 70px;
+}
+
+.video .text {
+    width: 465px;
+    padding-top: 130px;
+
+}
+
+.video .text h3 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+    text-indent: 1em;
+}
+
+.video .text p {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 13px;
+    line-height: 20px;
+    text-indent: 1em;
+    margin-top: 25px;
+}
+
+.video .content {
+    width: 670px;
+    height: 376px;
+
+}
+
+.video .content video {
+    width: 100%;
+    height: 100%;
+}
+
+/*内容*/
+.main {
+    padding-top: 86px;
+}
+
+.main .w .text {
+    text-align: center;
+}
+
+.main .text {
+    margin-bottom: 30px;
+}
+
+.main h3 {
+    font-family: "Microsoft YaHei", "SimSun";
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.main p {
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+}
+
+.main .pic .first ul {
+    margin-bottom: 20px;
+}
+
+.main .pic .first li {
+    float: left;
+    width: 370px;
+    /*height: 243px;*/
+    display: flex;
+    position: relative;
+}
+
+.main .pic .first a {
+    display: block;
+}
+
+.main .pic .first img {
+    width: 100%;
+}
+
+.main .pic .first .second {
+    margin: 0 29px;
+}
+
+/*重点重点重点重点重点*/
+.main .pic .item:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: -1;
+    transition: all 0.3s ease-in;
+}
+
+.main .pic li:hover .item:after {
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 100;
+}
+
+.main .pic .first .p1 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 15px;
+    font-weight: 500;
+    color: #039CDA;
+    margin-top: 15px;
+}
+
+.main .pic .first .p2 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.main .pic .first .p3 {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #039CDA;
+}
+
+/*轮播图*/
+.car {
+    margin-top: 50px;
+}
+
+.car .text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.car .text h3 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.car .text p {
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.car .lunbo {
+    width: 1169px;
+    height: 657px;
+    overflow: hidden;
+    position: relative;
+}
+
+.car .lunbo .ul {
+    display: block;
+    position: relative;
+    width: 2338px;
+    height: 657px;
+}
+
+.car .lunbo li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1169px;
+    height: 657px;
+}
+
+.car .lunbo .A {
+    display: block;
+    width: 1169px;
+    height: 657px;
+    position: relative;
+    overflow: hidden;
+}
+
+.car .lunbo .A:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: -1;
+    transition: all 0.3s ease-in;
+
+}
+
+.car .lunbo li:hover .A:after {
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+}
+
+.car .lunbo img {
+    width: 100%;
+}
+
+.car .lunbo .cas {
+    position: absolute;
+    width: 1169px;
+    top: 50%;
+    margin-top: -30px;
+    display: none;
+    z-index: 10;
+}
+
+.car .lunbo .cas .left,
+.car .lunbo .cas .right {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    position: relative;
+}
+
+.car .lunbo .cas .left span {
+    position: absolute;
+    left: -12px;
+}
+
+.car .lunbo .cas .right span {
+    position: absolute;
+    left: 15px;
+}
+
+.car .lunbo .box {
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
+
+.car .lunbo .box ul li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #fff;
+    margin: 0 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.car .lunbo .box ul li:nth-child(2) {
+    margin: 0 30px;
+}
+
+.car .lunbo .box ul li:nth-child(3) {
+    margin: 0 55px;
+}
+
+.car .lunbo .box ul .active {
+    background-color: #fff;
+
+}
+
+/*关于他*/
+.about {
+    margin-top: 70px;
+    padding: 70px 0;
+    height: 600px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.about .text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.about .text h3 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.about .text p {
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.about .pic .li {
+    width: 570px;
+    height: 380px;
+
+}
+
+.about .pic .fg {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.about .pic .fg:after {
+    content: attr(data-about);
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 380px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: -1;
+    transition: all 0.3s ease-in;
+
+}
+
+.about .pic .li:hover .fg:after {
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+
+}
+
+.about .pic .li .city {
+    margin-top: 15px;
+    display: inline-block;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 18px;
+    color: #039CDA;
+}
+
+.about .pic .li .city:hover {
+    text-decoration: underline;
+}
+
+.about .pic .li p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.about .pic .li i {
+    color: #a7a9ac;
+    font-size: 14px;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+/*tab*/
+.tab {
+    padding-top: 50px;
+}
+
+.tab .text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.tab .text h3 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.tab .text p {
+    font-size: 13px;
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.tab .tab-s {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #039CDA;
+    padding-bottom: 15px;
+}
+
+.tab .tab-s li {
+    float: left;
+    width: 100px;
+    font-family: "Microsoft YaHei", "SimSun";
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.tab .tab-s .color {
+    background-color: #039CDA;
+    color: #fff;
+}
+
+.tab .content li {
+
+    float: left;
+}
+
+.tab .content li a {
+    display: block;
+    width: 370px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.tab .content .second {
+    margin: 0 29px;
+}
+
+.tab .content img {
+    width: 100%;
+
+}
+
+.tab .content .wen-zi {
+    width: 370px;
+    height: 90px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -60px;
+}
+
+
+.tab .content .wen-zi p {
+    color: #fff;
+    text-align: center;
+    font-family: "Microsoft YaHei", "SimSun";
+    font-size: 14px;
+}
+
+.tab .content .tab-contents {
+    float: left;
+    display: none;
+}
+
+.tab .content .show {
+    display: block !important;
+
+}
+
+/*为什么选择*/
+.why {
+    margin-top: 70px;
+    padding-top: 50px;
+    background-color: #F5F5F5;
+}
+
+.why .text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.why .text h3 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.why .nei-rong li {
+    float: left;
+    width: 370px;
+    height: 240px;
+
+}
+
+.why .nei-rong .second {
+    margin: 0 29px;
+}
+
+.why .nei-rong h4 {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.why .nei-rong p {
+    font-family: "Microsoft YaHei", sans-serif, "SimSun";
+    font-size: 14px;
+    line-height: 20px;
+    text-indent: 1em;
+
+}
+
+/*页尾*/
+.footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer .lian-jie a {
+    display: inline-block;
+    padding: 0 5px;
+    color: #7594a8;
+    line-height: 1;
+}
+
+.footer .lian-jie a:nth-child(1) {
+    padding-left: 0;
+}
+
+.footer .lian-jie a:hover {
+    text-decoration: underline;
+}
+
+.footer .lian-jie a + a {
+    border-left: 1px solid #7594a8;
+}
+
+.footer .an-quan {
+    border-top: 2px solid #039CDA;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.footer .an-quan .center a {
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 1;
+}
+
+.footer .an-quan .center a + a {
+    border-left: 1px solid #7594a8;
+}
+
+.footer .an-quan .center a:hover {
+    color: #039CDA;
+}
+
+.footer .an-quan .wei-xin {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.footer .an-quan .wei-xin img {
+    width: 100%;
+}
