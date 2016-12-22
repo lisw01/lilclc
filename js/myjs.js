@@ -104,6 +104,7 @@ function aniMy(obj, json, fn, time,speed) {
         }
     }, time);
 }
+
 function getAttr(obj, attr) {
     if (obj.currentStyle) {
         return obj.currentStyle[attr];
